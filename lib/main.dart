@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
       opaqueRoute: Get.isBottomSheetOpen,
       popGesture: Get.isPopGestureEnable,
       transitionDuration: const Duration(milliseconds: 230),
-      initialRoute: AppPages.initial,
+      initialRoute: Routes.about,
       getPages: AppPages.routes,
     );
   }

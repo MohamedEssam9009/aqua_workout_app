@@ -1,3 +1,4 @@
+import 'package:aqua_workout_app/pages/started/about_view.dart';
 import 'package:aqua_workout_app/pages/started/welcome_view.dart';
 import 'package:get/get.dart';
 
@@ -9,6 +10,10 @@ class AppPages {
     GetPage(
       name: Routes.welcome,
       page: () => const WelcomeView(),
+    ),
+    GetPage(
+      name: Routes.about,
+      page: () => const AboutView(),
     ),
   ];
 }
