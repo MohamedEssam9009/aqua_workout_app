@@ -1,5 +1,6 @@
-import 'package:aqua_workout_app/shared/styles/colors.dart';
 import 'package:flutter/material.dart';
+
+import '../styles/colors.dart';
 
 class OptionWidget extends StatelessWidget {
   final String state, detail;

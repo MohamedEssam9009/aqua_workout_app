@@ -1,5 +1,5 @@
-import 'package:aqua_workout_app/shared/styles/colors.dart';
-import 'package:aqua_workout_app/shared/widgets/option_widget.dart';
+import '../../shared/styles/colors.dart';
+import '../../shared/widgets/option_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

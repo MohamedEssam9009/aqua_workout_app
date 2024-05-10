@@ -1,4 +1,6 @@
-import 'package:aqua_workout_app/shared/styles/colors.dart';
+import '../../routes/app_pages.dart';
+
+import '../../shared/styles/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -92,7 +94,9 @@ class WelcomeView extends StatelessWidget {
                   ),
                   const SizedBox(height: 10.0),
                   TextButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Get.toNamed(Routes.login);
+                    },
                     child: Container(
                       height: 50.0,
                       width: Get.width * 0.7,

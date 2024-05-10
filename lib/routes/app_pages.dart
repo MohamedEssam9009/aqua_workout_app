@@ -1,6 +1,8 @@
-import 'package:aqua_workout_app/pages/started/about_view.dart';
-import 'package:aqua_workout_app/pages/started/welcome_view.dart';
 import 'package:get/get.dart';
+
+import '../pages/started/about_view.dart';
+import '../pages/started/login_view.dart';
+import '../pages/started/welcome_view.dart';
 
 part 'app_routes.dart';
 
@@ -14,6 +16,10 @@ class AppPages {
     GetPage(
       name: Routes.about,
       page: () => const AboutView(),
+    ),
+    GetPage(
+      name: Routes.login,
+      page: () => const LoginView(),
     ),
   ];
 }
