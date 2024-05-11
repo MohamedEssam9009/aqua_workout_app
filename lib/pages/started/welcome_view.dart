@@ -1,8 +1,8 @@
-import '../../routes/app_pages.dart';
-
-import '../../shared/styles/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import '../../routes/app_pages.dart';
+import '../../shared/styles/colors.dart';
 
 class WelcomeView extends StatelessWidget {
   const WelcomeView({super.key});
@@ -72,7 +72,7 @@ class WelcomeView extends StatelessWidget {
                   ),
                   const SizedBox(height: 30.0),
                   TextButton(
-                    onPressed: () {},
+                    onPressed: () => Get.toNamed(Routes.about),
                     child: Container(
                       height: 50.0,
                       width: Get.width * 0.7,

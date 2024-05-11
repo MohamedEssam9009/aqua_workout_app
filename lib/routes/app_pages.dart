@@ -1,9 +1,5 @@
+import 'package:aqua_workout_app/pages/xcore.dart';
 import 'package:get/get.dart';
-
-import '../pages/started/about_view.dart';
-import '../pages/started/forget_password_view.dart';
-import '../pages/started/login_view.dart';
-import '../pages/started/welcome_view.dart';
 
 part 'app_routes.dart';
 
@@ -21,6 +17,10 @@ class AppPages {
     GetPage(
       name: Routes.login,
       page: () => const LoginView(),
+    ),
+    GetPage(
+      name: Routes.register,
+      page: () => const RegisterView(),
     ),
     GetPage(
       name: Routes.forgetPassword,
