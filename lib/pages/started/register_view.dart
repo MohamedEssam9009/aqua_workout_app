@@ -1,6 +1,6 @@
-import 'package:aqua_workout_app/pages/widgets/body_header.dart';
-import 'package:aqua_workout_app/shared/styles/colors.dart';
-import 'package:aqua_workout_app/shared/widgets/text_field_widget.dart';
+import '../widgets/body_header.dart';
+import '../../shared/styles/colors.dart';
+import '../../shared/widgets/text_field_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

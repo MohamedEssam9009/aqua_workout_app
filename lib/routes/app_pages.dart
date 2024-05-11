@@ -1,4 +1,4 @@
-import 'package:aqua_workout_app/pages/xcore.dart';
+import '../pages/xcore.dart';
 import 'package:get/get.dart';
 
 part 'app_routes.dart';

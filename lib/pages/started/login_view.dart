@@ -1,4 +1,4 @@
-import 'package:aqua_workout_app/pages/widgets/body_header.dart';
+import '../widgets/body_header.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
